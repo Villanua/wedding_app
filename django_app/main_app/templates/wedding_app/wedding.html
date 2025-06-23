@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% load static %}
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ambre & Rubén</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="{% static 'css/styles_wedding.css' %}" />
+
+    <script src="{% static 'js/wedding.js' %}"></script>
+    
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#story">Our Story</a>
+        <a href="#details">Details</a>
+        <a href="#other">Other</a>
+      </div>
+    </nav>
+
+    <header>
+      <h1>Ambre & Rubén</h1>
+      <div class="gallery">
+        <img src="{% static 'img/img_head_1.jpeg' %}" alt="Ambre y Rubén 1">
+        <img src="{% static 'img/img_head_2.jpeg' %}" alt="Ring">
+        <img src="{% static 'img/img_head_3.jpeg' %}" alt="Ambre y Rubén 2">
+      </div>
+      <div class="date-location">01.01.2024 | Málaga, España</div>
+    </header>
+
+    <section id="story" class="story">
+      <h2>Our Love Story</h2>
+      <div class="story-container">
+        <div class="story-image">
+          <img src="{% static 'img/img_story.jpeg' %}" alt="Ambre y Rubén 3" class="feature-image">
+        </div>
+        <div class="story-text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="details" class="details">
+      <h2>The Details</h2>
+      <div class="timeline">
+        <div>
+          <strong>Fri Dec 3rd</strong>
+          Rehearsal Dinner<br>Balcón Sepulcro, Málaga
+        </div>
+        <div>
+          <strong>Sat Dec 4th - 2:00pm</strong>
+          Wedding Ceremony<br>Málaga, Málaga
+        </div>
+        <div>
+          <strong>Sat Dec 4th - 4:00pm</strong>
+          Cocktail Hour<br>Málaga
+        </div>
+        <div>
+          <strong>Sat Dec 4th - 7:00pm</strong>
+          Wedding Reception<br>Málaga
+        </div>
+        <div>
+          <strong>Sun Dec 5th - 10:00am</strong>
+          Farewell Brunch<br>Málaga
+        </div>
+      </div>
+    </section>
+
+    <section id="other" class="wedding-party">
+      <h2>Other section</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </section>
+    
+    
+  </body>
+
+</html>
