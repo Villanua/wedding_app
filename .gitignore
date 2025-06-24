@@ -27,6 +27,11 @@
 *.tar.bz2
 *.tar.xz
 
+# Folder names to ignore in Python projects
+fonts/
+images/
+img/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
